@@ -1,0 +1,8 @@
+.cache
+.eggs
+.tox/
+dist/
+ffmpeg/tests/sample_data/out*.mp4
+ffmpeg_python.egg-info/
+venv*
+build/

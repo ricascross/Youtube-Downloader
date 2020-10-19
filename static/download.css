@@ -1,0 +1,71 @@
+.navbar-brand {
+    margin-left: 2rem;
+}
+
+.navbar-nav {
+    margin-right: 2rem;
+}
+
+body {
+    background-color:#dedede !important; 
+    width: 100%;
+    overflow: hidden;
+}
+
+header {
+    overflow-x: hidden;
+    width: 80%;
+    display: flex;
+    margin: 3rem auto;
+}
+
+.alert  {
+    background-color: aquamarine !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: clamp(5px, 2vw, 20px);
+    -webkit-font-size: clamp(5px, 2vw, 20px);
+}
+
+a {
+    text-decoration: none !important;
+}
+
+
+
+
+
+.download {
+    width: 100%;
+    min-height: 30vh;
+    display: block;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.page-icon {
+    background-color: black;
+    height: 20px;
+    width: 20px;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,52 @@
+form {
+    width: 90%;
+    align-items: center;
+}
+
+.title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10rem;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5rem;
+}
+
+.form-control {
+    margin-right: 1rem;
+}
+
+.btn {
+    width: 400px;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .title-container {
+        margin-bottom: 5rem;
+    }
+
+    .form-group {
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    .form-control {
+        margin-left: -1rem;
+        margin-bottom: 3rem;
+    }
+
+    .btn {
+        width: 200px;
+        margin-left: 4rem;
+    }
+}
+
+
+

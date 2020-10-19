@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    MP4 Downloader
+{% endblock %}
+
+{% block head %}
+    <link rel="stylesheet" href="../static/downloader.css">
+{% endblock %}
+
+{% block main %}
+    <div class="title-container">
+        <h3>MP4 Downloader</h3>
+    </div>
+    <form action="/mp4Downloader" method="post">
+        <div class="form-group">
+            <input autocomplete="off" autofocus class="form-control" name="url" placeholder="URL" type="text" required>
+            <button class="btn btn-primary" type="submit">Submit</button>
+        </div>
+
+    </form>
+{% endblock %}
