@@ -128,3 +128,6 @@ def downloadMP4():
 @app.route("/downloadMP3", methods=["GET"])
 def downloadMP3():
     return send_file("final.mp3", as_attachment=True)
+
+if __name__ == "__main__":
+	app.run()
